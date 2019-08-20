@@ -1,0 +1,40 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background: #F5F7FA;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+.header, .hero, .ad, .body, .sidebar, .footer{
+    background: #4FC1E9;
+    text-transform: uppercase;
+}
+
+.brand, .global-nav, .tools, .hero-feature, .call-to-action{
+    height: 50px;
+    background: #E6E9ED;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-transform: capitalize;
+}
+.ad{
+    height: 119px;
+    background: #4A89DC;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-transform: capitalize;
+}
+.article-feature, .article-listing, .sidebar-feature{
+    height: 119px;
+    background: #E6E9ED;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-transform: capitalize;
+}
